@@ -48,7 +48,7 @@ kind: Service
 metadata:
   name: mssql
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
   - port: 1433
   selector:
